@@ -9,7 +9,7 @@ module.exports = {
     library: 'S3d',
     libraryTarget: 'umd',
   },
-  // Todo 不需要
+  // Todo：目前认为不需要
   // resolve: {
   //   alias: {
   //     cesium: path.resolve(__dirname, 'libs/Cesium'),
@@ -25,7 +25,7 @@ module.exports = {
     ],
   },
   externals: {
-    // Todo 忽略 Cesium 的 import，目前只找到这种办法
+    // Todo：忽略 Cesium 的 import，目前只找到这种办法
     "../libs/Cesium": 'Cesium',
   }
 };
